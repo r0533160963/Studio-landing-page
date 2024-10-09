@@ -1,0 +1,54 @@
+/* עיצוב שדה קלט עם כיוון טקסט ימין לשמאל */
+.textfield-rtl {
+    direction: rtl;
+}
+
+.dialog-service .textfield-rtl .MuiInputLabel-root {
+    color: #c70d61 ; /* צבע ורוד לכיתוב */
+    right: 5px;
+    left: unset;
+}
+
+.textfield-rtl .MuiInput-underline:before {
+    border-bottom: 2px solid #080808; /* מסגרת תחתונה ורודה לפני פוקוס */
+}
+
+.textfield-rtl .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid #c70d61; /* מסגרת ורודה במצב ריחוף */
+}
+
+.textfield-rtl .MuiInput-underline:after {
+    border-bottom: 2px solid #c70d61; /* מסגרת ורודה במצב פוקוס */
+}
+
+
+
+/* עיצוב הכותרת */
+.dialog-service .title-dialog {
+    color: #c70d61;
+    font-size: 24px;
+}
+
+.dialog-service .p-down {
+    margin-right: 280px;
+    margin-bottom: 20px;
+    color: #3c1d2b;
+}
+.dialog-service .p-down:hover{
+    color: #c70d61;
+}
+
+/* עיצוב הכפתורים */
+.dialog-service .action-button .button-cencel {
+    color: #c70d61;
+}
+
+.dialog-service .action-button .button-ok {
+    background-color: #c70d61;
+    color: white;
+    border-radius: 50px;
+}
+
+.dialog-service .button-ok .circel{
+    color: white;
+}

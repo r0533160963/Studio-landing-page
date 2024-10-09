@@ -1,0 +1,93 @@
+.home-page {
+    background-color: black;
+}
+
+.home-page .app-bar {
+    background-color: rgba(0, 0, 0, 0.734);
+    height: 120px;
+}
+.home-page .app-bar .logo-image{
+    width:10%;
+    margin-top: 10px;
+}
+.home-page .appBar-action {
+    display: flex;
+}
+
+.app-bar .button-action {
+    color: #ffffff;
+    margin-right: 70px;
+    margin-top: 40px;
+    height: 50px;
+    font-size:16px;
+}
+
+.app-bar .button-action:hover {
+    border-bottom: 2px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+}
+
+.app-bar .icon-action{
+    margin-left: 5px;
+}
+.home-page .icon-count{
+    margin-top: 10px;
+    margin-right: 250px;
+}
+.home-page .image-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    box-shadow:2px 1px 2px 2px rgba(14, 1, 1, 0.615);
+}
+
+
+.home-page .image-class {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.home-page .image-caption {
+    position: fixed;
+    bottom: 300px; 
+    right: 40px;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    transition: opacity 0.3s ease-out; 
+    opacity: 1;
+}
+
+.home-page .image-caption.hidden {
+    opacity: 0;
+}
+
+.home-page .heder-end{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.home-page .logo-image-end{
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 40%;
+}
+
+
+.home-page .divider{
+    background-color: #454040;
+}
+.home-page .text-creat{
+    color: #8f8b8bc3;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.home-page .text-creat .dress-mail{
+    cursor: pointer;
+}

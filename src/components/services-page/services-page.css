@@ -1,0 +1,65 @@
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .image-item {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid rgb(62, 62, 62);
+    padding: 10px;
+    border-radius: 90px;
+    width: 55%;
+    height: 200px;
+    box-shadow: 2px 2px 5px rgba(239, 236, 236, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;  
+  }
+  
+  .image-item:hover {
+    transform: scale(1.6);
+    background-color: rgba(233, 232, 232, 0.034);
+  }
+  .image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 20px;
+    filter: grayscale(75%); /* הופך את התמונה לשחור-לבן */
+    transition: filter 0.5s ease; /* מעבר חלק לצבע */  
+  }
+  .image-item:hover .image {
+    filter: grayscale(0%); /* התמונה הופכת לצבעונית כאשר עוברים עם העכבר */
+  }
+  
+  
+  .text {
+    max-width: 60%;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .text h1 {
+    margin: 0;
+    color: #c70d61;
+  }
+  
+  .text p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  .text Button{
+    color:#c70d61;
+    margin-right: 350px;
+    border-color: #c70d61;
+  }
+
+  .text Button:hover{
+    border-bottom: 2px solid #c70d61;
+    border-radius: 0;
+  }

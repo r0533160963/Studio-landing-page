@@ -1,0 +1,52 @@
+.about-yael {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center; /* יישור לימין */
+    padding-bottom: 100px;
+    box-shadow:2px 2px 2px 2px rgba(72, 72, 72, 0.573);
+  }
+  
+  .about-yael h1 {
+    margin-bottom: 15px;
+    margin-top: 50px;
+    color: #c70d61;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px; /* מרווח בין הכותרת לקו */
+}
+.about-yael h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; /* גובה הקו */
+    width: 100%;
+    background-color: #ff0374; /* צבע הקו */
+    transform: scaleX(0); /* הפחתת קנה המידה של הקו */
+    transition: transform 0.3s ease; /* מעבר חלק */
+  }
+
+.about-yael h1:hover::after {
+    transform: scaleX(1); /* להגדיל את הקו לגודלו המלא */
+  }
+.about-yael h1:hover{
+    color: #ff0374;
+}
+.about-yael h1:hover::before {
+    opacity: 1; /* מסגרת נראית כשהעכבר מעל */
+    transform: scale(1); /* הפחתת הגודל ליצירת אפקט התקרבות */
+  }
+  
+.about-yael p {
+    max-width: 800px;
+    margin-right: 300px;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    color: #555;
+    transition: color 0.3s ease-in-out; /* אנימציה לשינוי צבע */
+  }
+.about-yael p:hover{
+    color: #c70d61;
+  }

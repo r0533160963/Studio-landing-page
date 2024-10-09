@@ -1,0 +1,103 @@
+.customers-page {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 70px;
+    margin-top: 100px;
+    border-top: 3px solid rgba(0, 0, 0, 0.394);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.394);
+}
+  
+.clients-slider {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+  
+.logo-image {
+    width: 100px;
+    height: auto;
+}
+  
+.testimonials-section {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+  
+.testimonial-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #8a898a6c;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.testimonial-slide {
+    text-align: center;
+}
+  
+.testimonial-box p {
+    font-size: 16px;
+    color: #333;
+}
+
+.testimonial-slide .icon-talk-start{
+    color: #c70d61;
+}
+
+.testimonial-content{
+display: flex;
+margin-right: 320px;
+}
+
+.testimonial-content p{
+    margin-right: 14px;
+}
+
+.testimonial-box .stars-rating{
+    margin-top: 7px;
+    color: gold;
+}
+
+.testimonial-content .text-profil{
+    margin-top: 17px;
+}
+
+.testimonial-content .text-profil .testimonial-date{
+    font-size: small;
+}
+
+.testimonial-box .profile-image{
+    height: 70px;
+}
+
+
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /* שלוש עמודות קבועות */
+    gap: 70px;
+    justify-items: center;
+    margin-top: 50px;
+   
+}
+
+.logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(70%); /* לוגו בשחור-לבן */
+    transition: filter 0.3s ease, transform 0.3s ease; /* מעבר חלק */
+}
+
+
+.logo-item:hover .logo-image {
+    filter: grayscale(0%); /* לוגו בצבע */
+    transform: scale(1.4); /* הגדלת הלוגו */
+}
