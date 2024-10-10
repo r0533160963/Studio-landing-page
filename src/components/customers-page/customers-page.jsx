@@ -28,7 +28,7 @@ const ClientsSlider = () => {
         { text: "איזה יפה הג'ינגל !!! קצר וקולע !!!!! את שרה ממש יפה, גם המיקס מושלם!!! תצליחי!", name: "חוי רוזמן", imageSrc: "/images/חוי רוזמן.png", date: "08/09/2023" },
         { text: "יעל שלום ובוקר טוב, קיבלנו את השיר איזה כיף להתחיל ככה את הבוקר נשמע מעולה!!!!!!!!!!! שמחנו להכיר היה לנו חויה מקסימה יחד ", name: "לאה קיבל", imageSrc: "/images/לאה קיבל.png", date: "08/01/2024" },
         { text: "תודה ענקית. מעבר לשיר והכל את פשוט מדהימה , כיף להיות לידך כל כך רגועה ונעימה. וכמה סבלנות שיש לך בלי עיין הרע ...  אז באמת תודה !!", name: "מיכל אליעד", imageSrc: "/images/מיכל אליעד.png", date: "20/05/2024" },
-        { text: "היי ממש תודה על השיר!! הוא יצא יפה בטירוףף. אין עליך , נהנים מכל רגע תודה לך 😍😍", name: "ציפי שטיגליץ", imageSrc: "S/images/ציפי שטיגליץ.png", date: "01/12/2023" }
+        { text: "היי ממש תודה על השיר!! הוא יצא יפה בטירוףף. אין עליך , נהנים מכל רגע תודה לך 😍😍", name: "ציפי שטיגליץ", imageSrc: "/images/ציפי שטיגליץ.png", date: "01/12/2023" }
     ];
 
     return (
