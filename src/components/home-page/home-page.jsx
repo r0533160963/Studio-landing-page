@@ -65,7 +65,7 @@ export default function HomePage() {
             <AppBar position="fixed" className="app-bar">
                 <Toolbar>
                     <div className="appBar-action">
-                        <img src="../public/images/android-chrome-192x192.png" alt="logo" className="logo-image" onClick={() => scrollToSection('home-page')} />
+                    <img src="/images/android-chrome-192x192.png" alt="logo" className="logo-image" onClick={() => scrollToSection('home-page')} />
                         <Button className="button-action" onClick={() => scrollToSection('about-section')}>
                             <AudiotrackIcon className="icon-action" /> אודות
                         </Button>
@@ -110,7 +110,7 @@ export default function HomePage() {
             </AppBar>
 
             <div className="image-container" id="home-page">
-                <img src="..\public\images\spicker-2.jpg" alt="A beautiful view" className="image-class" />
+                <img src="/images/spicker-2.jpg" alt="A beautiful view" className="image-class" />
                 {isCaptionVisible && (
                     <h1 className="image-caption">בואו לחוות את השירה באמת</h1>
                 )}
@@ -125,7 +125,7 @@ export default function HomePage() {
                 <ClientsSlider />
             </div>
             <div className="heder-end" id="contact-section">
-                <img src="../public/images/logo_yael-removebg-preview.png" className="logo-image-end" />
+                <img src="/images/logo_yael-removebg-preview.png" className="logo-image-end" />
                 <ContactPage />
             </div>
             <Divider className='divider' />

@@ -9,26 +9,26 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 const ClientsSlider = () => {
     const logos = [
-        { src: "../public/images/image (21).png", alt: "שצרנסקי" },
-        { src: "../public/images/כהנמן.png", alt: "כהנמן" },
-        { src: "../public/images/בני ברק.png", alt: "בני ברק" },
-        { src: "../public/images/החברה הכלכלית.png", alt: "החברה הכלכלית" },
-        { src: "../public/images/image (21).png", alt: "שצרנסקי" },
-        { src: "../public/images/כהנמן.png", alt: "כהנמן" },
-        { src: "../public/images/החברה הכלכלית.png", alt: "החברה הכלכלית" },
-        { src: "../public/images/image (21).png", alt: "שצרנסקי" },
-        { src: "../public/images/החברה הכלכלית.png", alt: "החברה הכלכלית" },
-        { src: "../public/images/בני ברק.png", alt: "בני ברק" },
-        { src: "../public/images/כהנמן.png", alt: "כהנמן" },
+        { src: "/images/image (21).png", alt: "שצרנסקי" },
+        { src: "/images/כהנמן.png", alt: "כהנמן" },
+        { src: "/images/בני ברק.png", alt: "בני ברק" },
+        { src: "/images/החברה הכלכלית.png", alt: "החברה הכלכלית" },
+        { src: "/images/image (21).png", alt: "שצרנסקי" },
+        { src: "/images/כהנמן.png", alt: "כהנמן" },
+        { src: "/images/החברה הכלכלית.png", alt: "החברה הכלכלית" },
+        { src: "/images/image (21).png", alt: "שצרנסקי" },
+        { src: "/images/החברה הכלכלית.png", alt: "החברה הכלכלית" },
+        { src: "/images/בני ברק.png", alt: "בני ברק" },
+        { src: "/images/כהנמן.png", alt: "כהנמן" },
         // הוספת לוגואים נוספים
     ];
 
     const testimonials = [
-        { text: "וואוו יעל !!! יצא פשוט מושלם !!! בדיוק מה שרציתי וחלמתי...", name: "תמר שושתרי", imageSrc: "../public/images/תמר שושתרי.png", date: "17/06/2024" },
-        { text: "איזה יפה הג'ינגל !!! קצר וקולע !!!!! את שרה ממש יפה, גם המיקס מושלם!!! תצליחי!", name: "חוי רוזמן", imageSrc: "../public/images/חוי רוזמן.png", date: "08/09/2023" },
-        { text: "יעל שלום ובוקר טוב, קיבלנו את השיר איזה כיף להתחיל ככה את הבוקר נשמע מעולה!!!!!!!!!!! שמחנו להכיר היה לנו חויה מקסימה יחד ", name: "לאה קיבל", imageSrc: "../public/images/לאה קיבל.png", date: "08/01/2024" },
-        { text: "תודה ענקית. מעבר לשיר והכל את פשוט מדהימה , כיף להיות לידך כל כך רגועה ונעימה. וכמה סבלנות שיש לך בלי עיין הרע ...  אז באמת תודה !!", name: "מיכל אליעד", imageSrc: "../public/images/מיכל אליעד.png", date: "20/05/2024" },
-        { text: "היי ממש תודה על השיר!! הוא יצא יפה בטירוףף. אין עליך , נהנים מכל רגע תודה לך 😍😍", name: "ציפי שטיגליץ", imageSrc: "../public/images/ציפי שטיגליץ.png", date: "01/12/2023" }
+        { text: "וואוו יעל !!! יצא פשוט מושלם !!! בדיוק מה שרציתי וחלמתי...", name: "תמר שושתרי", imageSrc: "/images/תמר שושתרי.png", date: "17/06/2024" },
+        { text: "איזה יפה הג'ינגל !!! קצר וקולע !!!!! את שרה ממש יפה, גם המיקס מושלם!!! תצליחי!", name: "חוי רוזמן", imageSrc: "/images/חוי רוזמן.png", date: "08/09/2023" },
+        { text: "יעל שלום ובוקר טוב, קיבלנו את השיר איזה כיף להתחיל ככה את הבוקר נשמע מעולה!!!!!!!!!!! שמחנו להכיר היה לנו חויה מקסימה יחד ", name: "לאה קיבל", imageSrc: "/images/לאה קיבל.png", date: "08/01/2024" },
+        { text: "תודה ענקית. מעבר לשיר והכל את פשוט מדהימה , כיף להיות לידך כל כך רגועה ונעימה. וכמה סבלנות שיש לך בלי עיין הרע ...  אז באמת תודה !!", name: "מיכל אליעד", imageSrc: "/images/מיכל אליעד.png", date: "20/05/2024" },
+        { text: "היי ממש תודה על השיר!! הוא יצא יפה בטירוףף. אין עליך , נהנים מכל רגע תודה לך 😍😍", name: "ציפי שטיגליץ", imageSrc: "S/images/ציפי שטיגליץ.png", date: "01/12/2023" }
     ];
 
     return (
