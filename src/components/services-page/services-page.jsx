@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '@mui/material';
-import BookingDialog from '../dialog-service/dialog-service'; // ייבוא של דיאלוג
-import './services-page.css'; // נניח שיש לך קובץ CSS לעיצוב
+import BookingDialog from '../dialog-service/dialog-service';
+import './services-page.css';
 
 const ServicesPage = () => {
   const [open, setOpen] = useState(false);
@@ -9,25 +9,25 @@ const ServicesPage = () => {
 
   const images = [
     {
-      src: "../public/adi-goldstein-Hli3R6LKibo-unsplash.jpg",
+      src: "../public/images/adi-goldstein-Hli3R6LKibo-unsplash.jpg",
       title: 'יום הולדת',
       description: 'יום הולדת זה הזמן לפנק , ולתת לכישרון שלכם צליל.',
       buttonText: 'לפרטים נוספים'
     },
     {
-      src: "../public/justin-heap-6kjujXU56WY-unsplash.jpg",
+      src: "../public/images/justin-heap-6kjujXU56WY-unsplash.jpg",
       title: 'בת מצווה',
       description: 'זו ההזדמנות לתת לילדה שלכם את הבמה.',
       buttonText: 'לפרטים נוספים'
     },
     {
-      src: "../public/matthieu-joannon-6ciLddToTgM-unsplash.jpg",
+      src: "../public/images/matthieu-joannon-6ciLddToTgM-unsplash.jpg",
       title: 'ארוע משפחתי',
       description: 'אירוע משפחתי זו ההזדמנות לחלוק רגעים משמחים עם כל האהובים.',
       buttonText: 'לפרטים נוספים'
     },
     {
-      src: "../public/edwin-petrus-GenlGZhrmnM-unsplash.jpg",
+      src: "../public/images/edwin-petrus-GenlGZhrmnM-unsplash.jpg",
       title: 'בתי ספר וסמינרים',
       description: 'מסיבות סוף שנה , תוכניות , מחנות וארועים.',
       buttonText: 'לפרטים נוספים'
