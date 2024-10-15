@@ -72,8 +72,8 @@ padding-right: 100px;
 
   .about-page .about-imag{
     margin-top: 90px;
-    width: 270px;
-    height: 250px;
+    width: 300px;
+    height: 270px;
     border-radius: 150px 150px 150px 0px;  
     animation: float 3s ease-in-out infinite; /* Applies the float animation */
   }

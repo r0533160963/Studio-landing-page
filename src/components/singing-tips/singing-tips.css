@@ -1,18 +1,20 @@
-  .singing-tips h2 {
+.singing-tips{
+  overflow: hidden; /* מונע גלילה רוחבית */
+} 
+
+.singing-tips h2 {
   text-align: center;
   color: #c70d61;
   font-size: 40px;
   margin-top: 100px;
-  margin-bottom: 100px;
-  opacity: 0; /* הכותרת מוסתרת בהתחלה */
-  transform: translateY(30px); /* הזזת הכותרת כלפי מטה בהתחלה */
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* אנימציה עבור הופעה חלקה */
+  margin-bottom: 150px;
+  text-shadow:2px 2px 2px #754e5f88;
+  transition: transform 0.5s ease; 
+}
+h2:hover{
+  transform: translateX(-50px); 
+}
 
-}
-.singing-tips h2.visible {
-  opacity: 1; /* הכותרת תופיע */
-  transform: translateY(0); /* החזרת הכותרת למיקומה המקורי */
-}
 
 .tip-list {
   background: linear-gradient(to bottom, 
@@ -26,7 +28,6 @@
   flex-wrap: wrap; /* כדי לאפשר פריטים לרדת לשורה חדשה כאשר אין מקום */
   justify-content: center; /* מרכז את התוכן בצורה אופקית */
   gap: 170px; /* רווח בין הטיפים */ 
-  /* background-color: black; */
 }
 
 .tip-item {

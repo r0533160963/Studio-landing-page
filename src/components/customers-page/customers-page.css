@@ -8,6 +8,26 @@
     border-bottom: 3px solid rgba(0, 0, 0, 0.394);
 }
   
+.customers-page h1{
+    color:#c70d61;
+    animation: colorGlow 5s ease-in-out infinite alternate;
+    transition: transform 0.3s ease;  
+}
+@keyframes colorGlow {
+    0% {
+      color: #8e1059; /* כחול בהיר */
+      text-shadow: 0 0 5px rgba(111, 6, 95, 0.5);
+    }
+    50% {
+      color: #ef0c85; /* ורוד */
+      text-shadow: 0 0 15px rgba(199, 11, 83, 0.7);
+    }
+    100% {
+      color: #eba7c9; /* טורקיז */
+      text-shadow: 0 0 5px rgba(240, 191, 216, 0.5);
+    }
+}
+
 .clients-slider {
     margin-bottom: 40px;
     margin-top: 80px;
