@@ -11,7 +11,8 @@
   text-shadow:2px 2px 2px #754e5f88;
   transition: transform 0.5s ease; 
 }
-h2:hover{
+
+.singing-tips h2:hover{
   transform: translateX(-50px); 
 }
 
