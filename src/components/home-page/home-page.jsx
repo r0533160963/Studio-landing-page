@@ -16,6 +16,7 @@ import Services from '../services-page/services-page';
 import ClientsSlider from '../customers-page/customers-page';
 import { Divider } from '@mui/material';
 import AboutPage from '../about-page/about-page';
+import SingingTips from '../singing-tips/singing-tips';
 import './home-page.css';
 
 export default function HomePage() {
@@ -55,9 +56,9 @@ export default function HomePage() {
             section.scrollIntoView({ behavior: 'smooth' });
         }
     };
-    
+
     const hendelSendMail = () => {
-    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=R0533160963@gmail.com');
+        window.open('https://mail.google.com/mail/?view=cm&fs=1&to=R0533160963@gmail.com');
     }
 
     return (
@@ -65,15 +66,15 @@ export default function HomePage() {
             <AppBar position="fixed" className="app-bar">
                 <Toolbar>
                     <div className="appBar-action">
-                    <img src="/images/android-chrome-192x192.png" alt="logo" className="logo-image" onClick={() => scrollToSection('home-page')} />
+                        <img src="/images/android-chrome-192x192.png" alt="logo" className="logo-image" onClick={() => scrollToSection('home-page')} />
                         <Button className="button-action" onClick={() => scrollToSection('about-section')}>
                             <AudiotrackIcon className="icon-action" /> אודות
                         </Button>
                         <Button className="button-action" onClick={() => scrollToSection('services-section')}>
                             <HeadsetIcon className="icon-action" /> מה באולפן
                         </Button>
+                        <Button className="button-action" onClick={() => scrollToSection('singing-section')}><MicExternalOnIcon className="icon-action" /> רוצים לשיר</Button>
                         <Button className="button-action" onClick={() => scrollToSection('customer-section')}><CheckCircleOutlineIcon className="icon-action" /> מרוצים וממליצים</Button>
-                        <Button className="button-action"><MicExternalOnIcon className="icon-action" /> רוצים לשיר</Button>
                         <Button className="button-action" onClick={() => scrollToSection('contact-section')}>
                             <WhatsAppIcon className="icon-action" /> צור קשר
                         </Button>
@@ -121,9 +122,14 @@ export default function HomePage() {
             <div id="services-section">
                 <Services />
             </div>
+            <div id='singing-section'>
+                <SingingTips />
+            </div>
             <div id="customer-section">
                 <ClientsSlider />
             </div>
+            
+            <Divider className='divider' />
             <div className="heder-end" id="contact-section">
                 <img src="/images/logo_yael-removebg-preview.png" className="logo-image-end" />
                 <ContactPage />

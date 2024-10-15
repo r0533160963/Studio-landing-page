@@ -4,7 +4,7 @@ import './about-page.css';
 const AboutYael = () => {
   return (
     <div className='about-page'>
-      <img src="\images\ayako-w-ilgtccReU-unsplash.jpg" alt='אודות - תמונה ' className='about-imag' />
+      <img src="\images\spicker.jpg" alt='אודות - תמונה ' className='about-imag' />
 
       <div className="about-yael">
         <h1>קצת עלי...</h1>

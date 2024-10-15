@@ -1,0 +1,52 @@
+  .singing-tips h2 {
+  text-align: center;
+  color: #c70d61;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  opacity: 0; /* הכותרת מוסתרת בהתחלה */
+  transform: translateY(30px); /* הזזת הכותרת כלפי מטה בהתחלה */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* אנימציה עבור הופעה חלקה */
+
+}
+.singing-tips h2.visible {
+  opacity: 1; /* הכותרת תופיע */
+  transform: translateY(0); /* החזרת הכותרת למיקומה המקורי */
+}
+
+.tip-list {
+  background: linear-gradient(to bottom, 
+  rgba(38, 0, 20, 0) 0%,        /* צבע רך בהתחלה */
+  rgba(38, 0, 20, 0.7) 30%,     /* מתחיל להתחזק */
+  rgba(28, 0, 15, 0.9) 50%,     /* הכי חזק במרכז */
+  rgba(38, 0, 20, 0.7) 70%,     /* חוזר להיות חלש */
+  rgba(38, 0, 20, 0) 100%       /* שוב רך בסוף */
+);
+  display: flex;
+  flex-wrap: wrap; /* כדי לאפשר פריטים לרדת לשורה חדשה כאשר אין מקום */
+  justify-content: center; /* מרכז את התוכן בצורה אופקית */
+  gap: 170px; /* רווח בין הטיפים */ 
+  /* background-color: black; */
+}
+
+.tip-item {
+  width: 250px;
+  height: 520px;
+  border: 2px solid #c70d61;
+  border-radius: 200px ;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 3px 3px 5px rgba(195, 191, 191, 0.1);
+  color: rgb(255, 255, 255);
+  transition: transform 0.5s ease; 
+}
+  
+.tip-item:hover {
+  transform: translateY(-50px); 
+}
+
+.tip-image {
+  width: 250px;
+  height: 230px;
+  border-radius: 150px 150px 0px 0px;
+}

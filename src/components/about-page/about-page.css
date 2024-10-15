@@ -71,7 +71,9 @@ padding-right: 100px;
   }
 
   .about-page .about-imag{
-    width: 20%;
-    border-radius: 150px;
+    margin-top: 90px;
+    width: 270px;
+    height: 250px;
+    border-radius: 150px 150px 150px 0px;  
     animation: float 3s ease-in-out infinite; /* Applies the float animation */
   }
