@@ -1,0 +1,19 @@
+.requests-page {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.requests-page h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section .don {
+    color: rgb(1, 159, 62);
+}
+
+.section .leter {
+    color: red;
+}

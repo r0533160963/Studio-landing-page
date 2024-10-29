@@ -17,12 +17,14 @@ import ClientsSlider from '../customers-page/customers-page';
 import { Divider } from '@mui/material';
 import AboutPage from '../about-page/about-page';
 import SingingTips from '../singing-tips/singing-tips';
+import { useNavigate } from 'react-router-dom';
 import './home-page.css';
 
 export default function HomePage() {
     const [auth, setAuth] = React.useState(true);
     const [anchorEl, setAnchorEl] = React.useState(null);
     const [isCaptionVisible, setIsCaptionVisible] = React.useState(true);
+    const navigate = useNavigate();
 
     const handleMenu = (event) => {
         setAnchorEl(event.currentTarget);
@@ -60,6 +62,10 @@ export default function HomePage() {
     const hendelSendMail = () => {
         window.open('https://mail.google.com/mail/?view=cm&fs=1&to=R0533160963@gmail.com');
     }
+
+    const handleLoginClick = () => {
+        navigate('/login'); // הנתיב '/login' מייצג את כתובת דף הלוגין שלך
+    };
 
     return (
         <div className="home-page">
@@ -103,7 +109,7 @@ export default function HomePage() {
                                 open={Boolean(anchorEl)}
                                 onClose={handleClose}
                             >
-                                <MenuItem onClick={handleClose}>login</MenuItem>
+                                <MenuItem onClick={handleLoginClick}>login</MenuItem>
                             </Menu>
                         </div>
                     )}
@@ -128,7 +134,7 @@ export default function HomePage() {
             <div id="customer-section">
                 <ClientsSlider />
             </div>
-            
+
             <Divider className='divider' />
             <div className="heder-end" id="contact-section">
                 <img src="/images/logo_yael-removebg-preview.png" className="logo-image-end" />

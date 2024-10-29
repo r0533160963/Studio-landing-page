@@ -1,0 +1,32 @@
+.login-page{
+   text-align:right;
+    display: flex;
+    background-color: black;
+}
+
+.login-page .button-login-home{
+    margin-top:200px ; 
+    text-align: center;
+    margin-left: 150px;
+    color: aliceblue;
+}
+
+.login-page .button-login-home .button-login{
+    color:  #c70d61;
+    border-color: #c70d61;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.login-page .button-home{
+    margin-top: 20px;
+    margin-right: 20px;
+    color:  #c70d61;
+    border-color: #c70d61;
+    border-radius: 50px;
+}
+
+.login-page .image-login{
+   width: 70%;
+}
